@@ -1,0 +1,83 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#container{
+  /* padding-top: 25px; */
+  margin: auto;
+  width:600px;
+}
+
+h1 {
+  text-align:center;
+}
+
+.grid {
+  margin: auto;
+  background-color:#ddd;
+  box-sizing: border-box;
+  width:540px;
+  height:540px;
+}
+
+.pixel {
+/*   background-color: pink; */
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  margin:0;
+  float:right;
+/*   display:inline-block; */
+}
+
+.pixel-colored {
+  background-color: #999;
+}
+
+.row {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 50%;
+  margin: 50px auto;
+}
+
+input {
+  padding:.6em 0;
+  text-align:center;
+  float:left;
+}
+#reset {
+  border: none;
+  padding:1em 1.5em;
+  text-transform: uppercase;
+  float:right;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+  #container {
+    width:450px;
+  }
+  .grid {
+    width:300px;
+    height:300px;
+  }
+
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (max-width: 320px) {
+
+#container {
+    width:300px;
+  }
+  .grid {
+    width:280px;
+    height:280px;
+  }
+}
